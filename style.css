@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Títulos centralizados */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Parágrafos */
+p {
+    margin: 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links do menu */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Listas */
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+/* Imagens */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Tabelas */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Foco nos campos */
+input:focus, select:focus, textarea:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+/* Grupo de opções (radio/checkbox) */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Botões */
+button {
+    width: 48%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Botão enviar */
+button[type="submit"] {
+    background-color: #00bcd4;
+    color: white;
+}
+
+/* Botão reset */
+button[type="reset"] {
+    background-color: #777;
+    color: white;
+}
+
+/* Hover */
+button:hover {
+    opacity: 0.9;
+}
